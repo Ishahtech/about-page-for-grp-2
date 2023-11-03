@@ -1,0 +1,146 @@
+.container {
+  background-color: #000000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.headings{
+    color: $headingwhite;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 2.86rem;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+}
+p{
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.abt-orcania{
+    display: flex;
+    justify-content: left;
+    margin-left:14px ;
+}
+.about-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 814px;
+  height: 210px;
+  padding: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 348px;
+
+  
+}
+
+.world-img {
+    margin-right: 38px;
+
+}
+
+#client-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #16FF00;
+    margin: 20px 0;
+    
+}
+
+.box{
+    border: 1px solid #16FF00;
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+.digit{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.patner-here{
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #000;
+    border: 1px solid #000;
+    background: #FFED00;
+    width: 100vw;
+    font-family: 'Audiowide', sans-serif;
+   
+}
+
+.mission-ctr{
+    text-align: center;   
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+    margin: 25px auto;
+    text-align: center;
+    
+   
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 500px;
+    background: #16FF00;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width:500px ;
+    background: #16FF00;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .mission-text{
+    margin: 0 48px 0 97px;
+  }
+
+.presence-ctr{
+    background-image: url(/images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: $textgrey;
+}  

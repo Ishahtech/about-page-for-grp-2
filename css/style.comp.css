@@ -1,0 +1,98 @@
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headings {
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text {
+  width: 814px;
+  height: 210px;
+}
+
+.about-text > p {
+  margin-left: 103px;
+}
+
+img {
+  width: 348px;
+  height: 353px;
+}
+
+.world-img {
+  margin-right: 81px;
+}
+
+#client-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.patner-here {
+  display: flex;
+  flex-direction: row;
+}
+
+.our-mission-container {
+  text-align: center;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  border: 1px solid #16FF00;
+  width: 100%;
+}
+
+.headings mission {
+  padding-left: 12px;
+}
+
+.text-dscr-Mission {
+  width: 1590px;
+  height: 110px;
+  flex-shrink: 0;
+  margin: 0 47px 0 91px;
+}
+
+/*# sourceMappingURL=style.comp.css.map */
